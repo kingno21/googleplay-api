@@ -7,3 +7,7 @@
 
 # ignore downloaded apps
 *.apk
+
+analysis/apk_files
+analysis/detail_reports
+analysis/resource_list
