@@ -1,0 +1,32 @@
+{
+    "aggregateRating": {
+        "commentCount": 36621,
+        "fiveStarRatings": 67514,
+        "fourStarRatings": 11207,
+        "oneStarRatings": 6042,
+        "ratingsCount": 91848,
+        "starRating": 4.438148021697998,
+        "threeStarRatings": 5025,
+        "twoStarRatings": 2060
+    },
+    "creator": "MediBang Inc.",
+    "descriptionHtml": "What is MediBang Paint?<br><br>MediBang Paint is a FREE lightweight digital painting and comic creation program that comes loaded with brushes, fonts, pre-made backgrounds, and other resources. MediBang Paint is available on Windows, Mac OS X, Android and iOS. The app uses cloud saving allowing users to easily transfer their work between platforms.<br><br>The Android version allows illustrators to draw anywhere they want, while retaining all of the features of the desktop versions of the software.<br><br>MediBang Paint includes many different creative tools for illustrators and comic book artists. Some of these include, numerous brushes, screentones and backgrounds, cloud fonts and comic creation tools. Finally registering on MediBang\u2019s site for free gives users access to cloud storage so they can easily manage, backup and share their work.<br><br><br>Want to know more about MediBang Paint?<br><br>\u2606 Paint or make comics anywhere on your smartphone!<br>\u30fbThis app comes with almost as many features as a desktop painting program.<br>\u30fbIts interface is made specifically for smartphones so users can easily paint, change brush sizes, or colors with no problems.<br>\u30fbColor can be intuitively changed in HSV mode.<br><br>\u2606Painting Tools<br>\u30fbUse over 100 free brushes* to draw a variety of colorful spectacles. <br>*A great selection available from Airbrush, Pencil, Watercolor, G Pen, Mapping Pen, Sumi, Flat Brush, Round Brush, Acrylic, School Pen, Turnip Pen, Drawing Pen, and Soft Pastel to Multi Brushes like the Salad Brush.<br>\u30fbForce Fade in and Out makes your lines sharp even if you\u2019re drawing with your fingers.<br><br>\u2606 Access tons of Resources for free<br>\u30fbUsers get access to 850 tones, textures, backgrounds and word balloons for free. <br>\u30fbThere are premade backgrounds that include city scenes and vehicles to cut down on user\u2019s workloads.<br>\u30fbTones, textures and backgrounds can be dragged and dropped into a picture. They can also be rotated, scaled or transformed freely.<br><br>\u2606 Free comic book fonts to give your comics a professional look.<br>\u30fbDepending on what fonts you use, the atmosphere of your comic can change enormously.<br>\u30fbHaving the right fonts for the right scenes and characters is very important.<br><br>\u2606Create comic panels easily<br>\u30fbJust dragging across the canvas can divide a panel into more panels.<br>\u30fbYou can transform or add color to panels after you create them.<br><br>\u2606Stress free drawing<br>\u30fbMediBang Paint\u2019s interface is extremely simple and user friendly.<br>\u30fbNew users can easily pick up the programs, and begin making comics or illustrating.\u3000<br>\u30fbUsers can customize shortcuts making production even easier.<br><br>\u2606Draw efficiently<br>\u30fbSnap guides make drawing in perspective easy.<br>\u30fbPen correction helps make the lines you draw smooth.<br><br>\u2606Easily edit your work.<br>\u30fbWith layers you can draw different things on different layers.<br>\u30fbDraw a character\u2019s hair hairstyle on one layer and you can change it without having to redraw the entire head.<br><br>\u2606Using a photo to draw a picture.<br>\u30fbYou can take photos and place them in their own layer. Then create a new layer on top of it to trace over them. This is particularly useful for drawing backgrounds.<br><br>\u2606Adding dialog with speech to text<br>\u30fbYou can add dialog to your comics with your voice to text feature.<br>\u30fbOf course you can still use the keyboard if you want for longer dialogs.<br><br>\u2606Work with others no matter where you are<br>\u30fbFiles you\u2019ve uploaded can be shared with others allowing you to work together.<br>\u30fbYou can use this feature to work on a project with several people.<br><br>\u2606With just one single click, you can share you work.<br>\u30fbWith one click you can upload your work to the MediBang art community.<br>\u30fbWork you\u2019ve uploaded can also be shared on your social network accounts.<br><br>\u2606Easy to use<br>\u30fbEven if you do get stuck there\u2019s a help feature in the app.<br><br>[External links]<br>\u3000For more info, click here.<br>\u3000https://medibangpaint.com/<br>\u3000Updates and news are also posted on Twitter and Facebook.<br>\u3000https://twitter.com/MediBangPaint<br>\u3000https://www.facebook.com/pages/MediBang-Paint/450942718399062",
+    "details": {
+        "appDetails": {
+            "contentRating": 1,
+            "developerName": "MediBang Inc.",
+            "installationSize": 10556088,
+            "numDownloads": "5,000,000+",
+            "packageName": "com.medibang.android.paint.tablet",
+            "uploadDate": "Apr 17, 2017",
+            "versionCode": 39,
+            "versionString": "11.0"
+        }
+    },
+    "docid": "com.medibang.android.paint.tablet",
+    "offer": {
+        "currencyCode": "USD",
+        "formattedAmount": "Free"
+    },
+    "title": "MediBang Paint - Make Art !"
+}

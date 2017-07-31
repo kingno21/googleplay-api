@@ -1,0 +1,3 @@
+jp.ne.ibis.ibispaintx.app
+com.eyewind.paperone
+com.medibang.android.paint.tablet

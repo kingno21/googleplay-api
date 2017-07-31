@@ -42,7 +42,7 @@ if (ctr is None):
         print SEPARATOR.join([doc.docid.encode('utf8'), doc.title.encode('utf8')])
 else:
     print_header_line()
+    # print message
     doc = message.doc[0]
     for c in doc.child:
         print_result_line(c)
-

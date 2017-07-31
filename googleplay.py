@@ -5,6 +5,8 @@ import gzip
 import pprint
 import StringIO
 import requests
+import requests.packages.urllib3
+requests.packages.urllib3.disable_warnings()
 
 from google.protobuf import descriptor
 from google.protobuf.internal.containers import RepeatedCompositeFieldContainer
@@ -13,6 +15,7 @@ from google.protobuf.message import Message, DecodeError
 
 import googleplay_pb2
 import config
+import string
 
 class LoginError(Exception):
     def __init__(self, value):
@@ -157,10 +160,12 @@ class GooglePlayAPI(object):
                 headers["Content-Type"] = post_content_type
 
             url = "https://android.clients.google.com/fdfe/%s" % path
+            print url
             if datapost is not None:
                 response = requests.post(url, data=datapost, headers=headers, verify=False)
             else:
                 response = requests.get(url, headers=headers, verify=False)
+
             data = response.content
 
         '''
@@ -234,10 +239,15 @@ class GooglePlayAPI(object):
         if (nb_results != None):
             path += "&n=%s" % requests.utils.quote(nb_results)
         if (offset != None):
-            path += "&o=%s" % requests.utils.quote(offset)
+            path += "&ctntkn=%s" % offset
+
+            # path += "&o=%s" % requests.utils.quote(offset)
+            # path += "&ctntkn=%s" % cal_offset(int(offset))
+
+
         message = self.executeRequestApi2(path)
         return message.payload.listResponse
-    
+
     def reviews(self, packageName, filterByDevice=False, sort=2, nb_results=None, offset=None):
         """Browse reviews.
         packageName is the app unique ID.
@@ -251,7 +261,7 @@ class GooglePlayAPI(object):
             path += "&dfil=1"
         message = self.executeRequestApi2(path)
         return message.payload.reviewResponse
-    
+
     def download(self, packageName, versionCode, offerType=1):
         """Download an app and return its raw data (APK file).
 
@@ -278,3 +288,11 @@ class GooglePlayAPI(object):
         response = requests.get(url, headers=headers, cookies=cookies, verify=False)
         return response.content
 
+
+def cal_offset(num):
+    char_list = list(string.ascii_uppercase) + list(string.ascii_lowercase) + list(string.digits) + list('-_')
+    # char_list = list(string.printable)
+    x124 = num * 4 / 4096 + 2
+    x62 = (num * 4 / 64) % 64
+    x1 = num * 4 % 64
+    return "".join([char_list[x124], char_list[x62], char_list[x1]])

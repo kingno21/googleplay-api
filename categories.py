@@ -17,5 +17,4 @@ response = api.browse()
 
 print SEPARATOR.join(["ID", "Name"])
 for c in response.category:
-  print SEPARATOR.join(i.encode('utf8') for i in [urlparse.parse_qs(c.dataUrl)['cat'][0], c.name])
-
+  print SEPARATOR.join(i.encode('utf8') for i in [urlparse.parse_qs(c.dataUrl)['browse?cat'][0], c.name])
